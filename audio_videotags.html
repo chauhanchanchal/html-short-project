@@ -1,0 +1,56 @@
+<!--3.	Build a simple webpage using HTML5 audio and video tags to play media files.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 MEDIA PLAYER</title>
+        <style>
+
+
+            body{
+                font-family : Arial, Helvetica, sans-serif;
+                text-align: center;
+                background-color: rgb(241, 240, 238);
+            }
+
+            h1{
+                color: rgba(79, 3, 56, 0.701);
+            }
+
+            h2{
+                  color: rgba(64, 3, 46, 0.838);
+             }
+
+            .media-box{
+                    
+                    background: rgb(235, 192, 227);
+                    width: 500px;
+                    margin : 20px auto;
+                    padding : 20px;
+                    box-shadow: 0px 10px 20px rgb(150, 25, 102);
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <h1>HTML5 Audio and Video</h1>
+
+        <div class="media-box">
+            <h2>Audio player</h2>
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="media-box">
+            <h2>video player</h2>
+            <video width = "300" controls>
+                <source src="video.mp4" type = "video/mp4">
+                  Your browser does not support the audio element.
+            </video>
+        </div>
+    </body>
+</html>
